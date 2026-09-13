@@ -22,7 +22,7 @@ https://toefl.xdf.cn/202512/15051944.html
 
 ## 手机电脑自动同步：一次性配置
 
-程序已包含同步代码，但交付时没有连接你的云账号，也没有发布到你的 GitHub。完成以下配置后才会实际同步。
+网页已发布：https://sheep-kt.github.io/toefl-weekly-2026/ 。程序已包含同步代码，但尚未连接你的云账号；完成免费数据库配置后才会实际同步。
 
 ### 1. 创建免费数据库
 
@@ -38,7 +38,7 @@ Supabase Free 当前提供 500 MB 数据库空间，本程序只存文字，个�
 https://supabase.com/pricing
 https://supabase.com/docs/guides/platform/free-project-pausing
 
-### 2. 发布网页到 GitHub Pages
+### 2. 网页已经发布（以下步骤供重新部署参考）
 
 1. 在 GitHub 新建用于此程序的仓库，将 **index.html 和 sw.js** 上传到仓库根目录。不要上传个人备份、成绩或任何登录令牌。
 2. 在仓库 Settings → Pages 中选择 Deploy from a branch，选择 main 分支、根目录，保存。账号和仓库可用性以 GitHub 当前规则为准；GitHub Free 可使用公开仓库的 Pages。
@@ -70,6 +70,8 @@ https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-githu
 - 复盘、综合模考用时列为「综合」，可自行分科填写以得到更准确的四科比例。
 
 ## 备份
+
+网页的“更多统计字段”还可选填复盘后正确数、超时次数、作文词数与语法错误数；统计页会自动计算复盘正确率和每百词语法错误。
 
 建议每周完成学习后导出一次完整 JSON 备份。清除浏览器数据、换浏览器、移动本地 HTML 文件都可能使原来的本地存储无法访问。备份不含云登录令牌；导入是合并，重复导入不会重复计算同一个事件。
 
